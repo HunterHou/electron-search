@@ -4,6 +4,7 @@ import { createMainWindow, mainWindow } from './desktop/window';
 import { contextMenu, createTray } from './desktop/tray';
 import './desktop/listener';
 import './server';
+import './database/db';
 
 const platform = process.platform || os.platform();
 
